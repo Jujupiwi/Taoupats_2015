@@ -82,6 +82,7 @@ if ($mysqli->connect_errno) {
                         <td>MOYENNE</td>
                         <td>ETOILE</td>
                         <td>OBJECTIF</td>
+                        <td>ATTEINT?</td>
                     </tr>
                     </thead>
                     <tbody>
@@ -120,6 +121,9 @@ if ($mysqli->connect_errno) {
                             echo "<td style='background-color: #C5D9F1'>";
                             echo $ligne[8];
                             echo "</td>";
+                            echo "<td style='background-color: #C5D9F1'>";
+                            echo $ligne[10];
+                            echo "</td>";
                             echo "</tr>";
                         }
                         ?>
@@ -138,6 +142,7 @@ if ($mysqli->connect_errno) {
                         <td>MOYENNE</td>
                         <td>ETOILE</td>
                         <td>OBJECTIF</td>
+                        <td>ATTEINT?</td>
                     </tr>
                     </thead>
                     <tbody>
@@ -176,6 +181,9 @@ if ($mysqli->connect_errno) {
                         echo "<td style='background-color: #F2DCDB'>";
                         echo $ligne[8];
                         echo "</td>";
+                        echo "<td style='background-color: #F2DCDB'>";
+                        echo $ligne[10];
+                        echo "</td>";
                         echo "</tr>";
                     }
                     ?>
@@ -194,6 +202,7 @@ if ($mysqli->connect_errno) {
                         <td>MOYENNE</td>
                         <td>ETOILE</td>
                         <td>OBJECTIF</td>
+                        <td>ATTEINT?</td>
                     </tr>
                     </thead>
                     <tbody>
@@ -231,6 +240,9 @@ if ($mysqli->connect_errno) {
                         echo "</td>";
                         echo "<td style='background-color: #C4D79B'>";
                         echo $ligne[8];
+                        echo "</td>";
+                        echo "<td style='background-color: #C4D79B'>";
+                        echo $ligne[10];
                         echo "</td>";
                         echo "</tr>";
                     }

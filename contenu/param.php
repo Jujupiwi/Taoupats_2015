@@ -5,7 +5,7 @@ Connexion à la base
  ********************************************************
 $serv = 'localhost';
 $login = 'root';
-$pwd = '';
+$pwd = 'audrey';
 $data = 'taoupats';*/
 
 $serv = 'mysql51-74.perso';
@@ -16,20 +16,20 @@ $data = 'taoupats';
 /*********************************************************
 Liste des joueurs pour le match
  *********************************************************/
-$joueur1 = 'Alexy';
-$joueur2 = 'Igor';
-$joueur3 = 'MaximeD';
-$joueur4 = 'Gaetan';
+$joueur1 = 'Remy';
+$joueur2 = 'Pierre';
+$joueur3 = 'MaximeS';
+$joueur4 = 'MaximeD';
 $joueur5 = 'André Filipe';
-$joueur6 = 'Tony';
-$joueur7 = 'Edouard';
-$joueur8 = 'JulienB';
-$joueur9 = 'Micka';
-$joueur10 = 'Pierre';
-$joueur11 = 'MaximeS';
-$joueur12 = 'Olivier';
-$joueur13 = 'Remy';
-$joueur14 = 'Baptiste';
+$joueur6 = 'Edouard';
+$joueur7 = 'Enzo';
+$joueur8 = 'Jordan';
+$joueur9 = 'JulienG';
+$joueur10 = 'JulienB';
+$joueur11 = 'Tony';
+$joueur12 = 'Paul';
+$joueur13 = 'Gaetan';
+$joueur14 = 'Fabrice';
 
 /*********************************************************
 Liste des autres joueurs
@@ -73,9 +73,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'domrapid';
-$noteMatch = 'note-domrapid';
-$commentMatch = 'comment-domrapid';
+$match = 'extseilh';
+$noteMatch = 'note-extseilh';
+$commentMatch = 'comment-extseilh';
 
 /*********************************************************
 Interview de la personne de la semaine

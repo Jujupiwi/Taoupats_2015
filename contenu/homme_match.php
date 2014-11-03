@@ -47,7 +47,7 @@ for ($i = 0; $i < $nbJoueurs; $i++) {
 // ***************************************************************************************************************************
 if ($sondage == 'O') {
     if ($isVoted == 1) {
-        echo "<h4>Rapid Toulouse</h4>";
+        echo "<h4>Seilh</h4>";
         if ($login_user == '') {
             echo "<p>Vous avez déjà répondu au sondage</p>";
         } else {
