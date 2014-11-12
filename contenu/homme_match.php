@@ -47,7 +47,7 @@ for ($i = 0; $i < $nbJoueurs; $i++) {
 // ***************************************************************************************************************************
 if ($sondage == 'O') {
     if ($isVoted == 1) {
-        echo "<h4>Seilh</h4>";
+        echo "<h4>Fontenilles</h4>";
         if ($login_user == '') {
             echo "<p>Vous avez déjà répondu au sondage</p>";
         } else {
@@ -218,21 +218,7 @@ if ($sondage == 'O') {
             </div>
         </div>
         <div class="row-fluid">
-            <div class="span3">
-                <div class="visible-desktop">
-                    <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"
-                         style="width: 90px; height: 150px;"
-                         src="images/team/<?php echo $joueur7; ?>.jpg">
-
-                </div>
-                <div class="" id="name_sondage">
-                    <label class="radio">
-                        <input type="radio" name="optionsRadios" id="optionsRadios1"
-                               value="<?php echo $joueur7; ?>" checked> <?php echo $joueur7; ?>
-                    </label>
-                </div>
-            </div>
-            <div class="span3">
+            <div class="offset1 span3">
                 <div class="visible-desktop">
                     <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"
                          style="width: 90px; height: 150px;"
@@ -260,23 +246,7 @@ if ($sondage == 'O') {
                     </label>
                 </div>
             </div>
-            <div class="span3">
-                <div class="visible-desktop">
-                    <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"
-                         style="width: 90px; height: 150px;"
-                         src="images/team/<?php echo $joueur11; ?>.jpg">
-
-                </div>
-                <div class="" id="name_sondage">
-                    <label class="radio">
-                        <input type="radio" name="optionsRadios" id="optionsRadios1"
-                               value="<?php echo $joueur11; ?>" checked> <?php echo $joueur11; ?>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div class="offset3 span3">
+            <div class="span4">
                 <div class="visible-desktop">
                     <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"
                          style="width: 90px; height: 150px;"
@@ -287,6 +257,22 @@ if ($sondage == 'O') {
                     <label class="radio">
                         <input type="radio" name="optionsRadios" id="optionsRadios1"
                                value="<?php echo $joueur10; ?>" checked> <?php echo $joueur10; ?>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="offset1 span3">
+                <div class="visible-desktop">
+                    <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"
+                         style="width: 90px; height: 150px;"
+                         src="images/team/<?php echo $joueur11; ?>.jpg">
+
+                </div>
+                <div class="" id="name_sondage">
+                    <label class="radio">
+                        <input type="radio" name="optionsRadios" id="optionsRadios1"
+                               value="<?php echo $joueur11; ?>" checked> <?php echo $joueur11; ?>
                     </label>
                 </div>
             </div>
@@ -304,7 +290,20 @@ if ($sondage == 'O') {
                     </label>
                 </div>
             </div>
+            <div class="span4">
+                <div class="visible-desktop">
+                    <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"
+                         style="width: 90px; height: 150px;"
+                         src="images/team/<?php echo $joueur7; ?>.jpg">
 
+                </div>
+                <div class="" id="name_sondage">
+                    <label class="radio">
+                        <input type="radio" name="optionsRadios" id="optionsRadios1"
+                               value="<?php echo $joueur7; ?>" checked> <?php echo $joueur7; ?>
+                    </label>
+                </div>
+            </div>
         </div>
         <br><br>
         <div class="row-fluid">

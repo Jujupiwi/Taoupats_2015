@@ -381,6 +381,18 @@
         </div>
         <div class="accordion-group">
             <div class="accordion-heading">
+                <a href="#collapse25" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
+                    Mickael Das Neves
+                </a>
+            </div>
+            <div class="accordion-body collapse" id="collapse25" style="height: 0px;">
+                <div class="accordion-inner">
+                    <?php include 'interviews/inter_micka.php'; ?>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-group">
+            <div class="accordion-heading">
                 <a href="#collapse18" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
                     Olivier Chastanet
                 </a>
