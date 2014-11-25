@@ -17,18 +17,18 @@ $data = 'taoupats';
 Liste des joueurs pour le match
  *********************************************************/
 $joueur1 = 'Alexy';
-$joueur2 = 'Pierre';
+$joueur2 = 'Joffrey';
 $joueur3 = 'MaximeS';
 $joueur4 = 'MaximeD';
 $joueur5 = 'André Filipe';
 $joueur6 = 'Edouard';
-$joueur7 = 'JulienG';
+$joueur7 = 'Pierre';
 $joueur8 = 'Jordan';
-$joueur9 = 'Enzo';
-$joueur10 = 'Remy';
-$joueur11 = 'Tony';
-$joueur12 = 'Paul';
-$joueur13 = 'Fabrice';
+$joueur9 = 'Paul';
+$joueur10 = 'Tony';
+$joueur11 = 'Micka';
+$joueur12 = 'Enzo';
+$joueur13 = 'Remy';
 $joueur14 = 'Olivier';
 
 /*********************************************************
@@ -73,9 +73,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'domfontenille';
-$noteMatch = 'note-domfontenille';
-$commentMatch = 'comment-domfontenille';
+$match = 'extvilleneuve';
+$noteMatch = 'note-extvilleneuve';
+$commentMatch = 'comment-extvilleneuve';
 
 /*********************************************************
 Interview de la personne de la semaine

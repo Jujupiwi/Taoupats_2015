@@ -47,7 +47,7 @@ for ($i = 0; $i < $nbJoueurs; $i++) {
 // ***************************************************************************************************************************
 if ($sondage == 'O') {
     if ($isVoted == 1) {
-        echo "<h4>Fontenilles</h4>";
+        echo "<h4>Villeneuve</h4>";
         if ($login_user == '') {
             echo "<p>Vous avez déjà répondu au sondage</p>";
         } else {

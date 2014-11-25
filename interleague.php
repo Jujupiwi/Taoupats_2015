@@ -67,7 +67,7 @@ if ($mysqli->connect_errno) {
 <div class="contentArea">
     <div class="divPanel notop page-content">
         <div class="row-fluid">
-            <h3>Interleague Saison 1</h3>
+            <h3>Interleague Saison 2</h3>
             <!--Edit Main Content Area here-->
             <div class="span8" id="divMain">
                 <table class="table table-bordered table-striped table-condensed table-hover">
@@ -82,7 +82,7 @@ if ($mysqli->connect_errno) {
                         <td>MOYENNE</td>
                         <td>ETOILE</td>
                         <td>OBJECTIF</td>
-                        <td>ATTEINT?</td>
+                       <!-- <td>ATTEINT?</td>-->
                     </tr>
                     </thead>
                     <tbody>
@@ -121,9 +121,9 @@ if ($mysqli->connect_errno) {
                             echo "<td style='background-color: #C5D9F1'>";
                             echo $ligne[8];
                             echo "</td>";
-                            echo "<td style='background-color: #C5D9F1'>";
+                            /*echo "<td style='background-color: #C5D9F1'>";
                             echo $ligne[10];
-                            echo "</td>";
+                            echo "</td>";*/
                             echo "</tr>";
                         }
                         ?>
@@ -142,7 +142,7 @@ if ($mysqli->connect_errno) {
                         <td>MOYENNE</td>
                         <td>ETOILE</td>
                         <td>OBJECTIF</td>
-                        <td>ATTEINT?</td>
+                     <!--   <td>ATTEINT?</td>-->
                     </tr>
                     </thead>
                     <tbody>
@@ -181,9 +181,9 @@ if ($mysqli->connect_errno) {
                         echo "<td style='background-color: #F2DCDB'>";
                         echo $ligne[8];
                         echo "</td>";
-                        echo "<td style='background-color: #F2DCDB'>";
+                        /*echo "<td style='background-color: #F2DCDB'>";
                         echo $ligne[10];
-                        echo "</td>";
+                        echo "</td>";*/
                         echo "</tr>";
                     }
                     ?>
@@ -202,7 +202,7 @@ if ($mysqli->connect_errno) {
                         <td>MOYENNE</td>
                         <td>ETOILE</td>
                         <td>OBJECTIF</td>
-                        <td>ATTEINT?</td>
+                        <!--<td>ATTEINT?</td>-->
                     </tr>
                     </thead>
                     <tbody>
@@ -241,9 +241,69 @@ if ($mysqli->connect_errno) {
                         echo "<td style='background-color: #C4D79B'>";
                         echo $ligne[8];
                         echo "</td>";
-                        echo "<td style='background-color: #C4D79B'>";
+                       /* echo "<td style='background-color: #C4D79B'>";
                         echo $ligne[10];
+                        echo "</td>";*/
+                        echo "</tr>";
+                    }
+                    ?>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered table-striped table-condensed table-hover">
+                    <thead>
+                    <tr style="background-color: #FFC001; font-weight: bold;">
+                        <td>N°</td>
+                        <td style="width: 20%">DIVISION 4</td>
+                        <td>PSN</td>
+                        <td>ATT</td>
+                        <td>MIL</td>
+                        <td>DEF</td>
+                        <td>MOYENNE</td>
+                        <td>ETOILE</td>
+                        <td>OBJECTIF</td>
+                        <!--<td>ATTEINT?</td>-->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    $test12 = "select * from division4 order by id;";
+                    $sql12 = $mysqli->query($test12);
+                    while ($row12 = $sql12->fetch_array()) {
+                        $rows12[] = $row12;
+                    }
+                    foreach ($rows12 as $ligne) {
+                        echo "<tr>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[0];
                         echo "</td>";
+                        echo "<td style='background-color: #BCA9F5; text-align: left !important;'><img style='width: 25px;' src='tournoi/images/$ligne[9].png'/>&nbsp;&nbsp;&nbsp;";
+                        echo $ligne[1];
+                        echo "</td>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[2];
+                        echo "</td>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[3];
+                        echo "</td>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[4];
+                        echo "</td>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[5];
+                        echo "</td>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[6];
+                        echo "</td>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[7];
+                        echo "</td>";
+                        echo "<td style='background-color: #BCA9F5'>";
+                        echo $ligne[8];
+                        echo "</td>";
+                        /* echo "<td style='background-color: #C4D79B'>";
+                         echo $ligne[10];
+                         echo "</td>";*/
                         echo "</tr>";
                     }
                     ?>

@@ -9,7 +9,6 @@
     <meta name="keywords" content="Foot,Daux,Taoupats">
     <meta name="author" content="Julien Guerrin">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="shortcut icon" href="favicon.ico">
     <!-- Remove this Robots Meta Tag, to allow indexing of site -->
 
     <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,14 +48,7 @@
     <link href="styles/custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body id="pageBody">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="divBoxed" class="container">
 
 <div class="transparent-bg"
@@ -79,14 +71,14 @@
                     </button>
                     <div class="nav-collapse collapse">
                         <ul class="nav nav-pills ddmenu">
-                            <li class="active"><a href="index.html">Accueil</a></li>
-                            <li class="dropdown">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle">Saison 2014-2015 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="calendrier.html">Calendrier</a></li>
                                     <li><a href="classement.html">Classement</a></li>
                                     <li><a href="stats.php">Stats</a></li>
-                                    <li><a href="matchs.html">Dernier match</a></li>
+                                    <li class="active"><a href="matchs.html">Dernier match</a></li>
                                     <li><a href="interviews.html">Interviews</a></li>
                                     <li><a href="trombi.html">Trombi</a></li>
                                 </ul>
@@ -135,28 +127,6 @@
         </div>
     </div>
 
-    <div class="row-fluid">
-        <div class="span12">
-
-            <div id="headerSeparator"></div>
-
-            <div class="camera_full_width">
-                <div id="camera_wrap">
-                    <div data-src="images/bor1.jpg">
-                        <div class="camera_caption fadeFromBottom cap1">La vie en jaune et noire...</div>
-                    </div>
-                    <div data-src="images/bor2.jpg">
-                        <div class="camera_caption fadeFromBottom cap1">La vie en jaune et noire...</div>
-                    </div>
-                </div>
-                <br style="clear:both"/>
-                <div style="margin-bottom:40px"></div>
-            </div>
-
-            <div id="headerSeparator2"></div>
-
-        </div>
-    </div>
 </div>
 
 <div class="contentArea">
@@ -164,91 +134,44 @@
     <div class="divPanel notop page-content">
 
         <div class="row-fluid">
-            <div class="span4">
-                <div style="text-align: center; ">
-                    <img style="width: 300px;" src="images/resto.jpg">
-                </div>
-            </div>
-            <div class="span4">
-                <div style="text-align: center; ">
-                    <img src="images/caussat.jpg">
-                </div>
-            </div>
-            <div class="span4">
-                <div style="text-align: center; ">
-                    <img style="width: 130px;" src="images/logomacdo.jpg">
-                </div>
-            </div>
-        </div>
-
-        <div class="row-fluid">
             <!--Edit Main Content Area here-->
-            <div class="span12" id="divMain">
-                <h3>Bienvenue sur le site des Taoupats</h3>
-                <div class="fb-like visible-desktop" data-href="http://taoupatsdedaux.fr/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                <p><i><strong>Le fil de news ...</strong></i></p>
-                <p><strong>25/11 : Nul 2-2 contre Villeneuve Tolosane. Le résumé : <a href="matchs.html">ICI</a></strong></p>
-                <p><strong>25/11 : Calendrier à jour : <a href="calendrier.html">ICI</a> </strong></p>
-                <p><strong>25/11 : Homme du match contre Fontenilles : <a href="archivesondages.html">Julien G</a> </strong></p>
-                <p><strong>25/11 : Classement à jour : <a href="classement.html">ICI</a> </strong></p>
-                <p><strong>10/11 : Interview de rémy en ligne : <a href="interviews.html">ICI</a> </strong></p>
-                <p><strong>20/10 : Boutique officielle du club : <a href="boutique.html">ICI</a></strong></p>
-                <p><strong>13/10 : Photos du match contre ASPTT. <a href="asptt2015.html">ICI</a></strong></p>
-               <br/>
+            <div class="span12" id="divMain" style="text-align: center">
+                <h3>Taoupats - Fontenilles<span style="font-size: 16px;">Par Dédé</span></h3>
+                <div class="offset2 span8" style="text-align: justify">
+                    <p>Bonjour à tous ! Nous sommes le samedi 8 novembre et nous nous retrouvons pour la 8ème journée de championnat. Voici la composition des Taoupats :</p>
+                    <p>Gardien : Alexy</p>
+                    <p>Défenseurs : Pierre C. – Dédé – Maxime D. – Maxime S.</p>
+                    <p>Milieux : Jo –  Edouard</p>
+                    <p>JulienG – Rémy - Tony</p>
+                    <p>Attaquant : Enzo</p>
+                    <p>Remplaçants de luxe : Gaëtan – Paul D. - Fabrice</p>
 
-                <div class="row-fluid">
-                    <div class="span3">
-                        <div class="box">
-                            <i class="icon-list-ol"> </i>
-                            <h4 class="title">Classement</h4>
-                            <hr/>
-                            <p>
-                                Consultez le classement de la poule A de la 2ème division Senior.
-                                <a href="classement.html">ICI</a>
-                            </p>
-                        </div>
-                    </div>
+                    <p>Deux changements opérés depuis la semaine dernière : Alexy enfile de nouveau les gants et Rémy remplace Julien B., blessé pendant 3 semaines. Toujours 2ème, à 1 point du leader Mondonvillois, la course aux points continue pour les Taoupats.<p>
+                    <p> D’autant plus que derrière, personne ne lâche de terrain, que ce soit Plaisance, Léguevin ou l’adverse du soir Fontenilles (et Juventus Papus en embuscade). Fontenilles est 5ème, à 4 points des Taoupats. Avec 4 victoires, 2 matches nuls et 1 défaites seulement, ils sont logiquement dans le wagon de tête du championnat. <p>
+                    <p><h4>Les notes du coach Guillaume (Agrémenté de quelques précisions de Dédé) :</h4></p>
+                    <p><b>5’ : </b> Première incursion des Taupes, avec Rémy et Enzo à la manœuvre, mais sans résultat. Les Taoupats subissent en ce début de première période.</p>
+                    <p><b>10’ : </b>Maxime S. , côté gauche, lance Rémy, qui centre, mais le gardien s’interpose. </p>
+                    <p><b>15’ : </b>  Suite à un beau mouvement collectif, les Taoupats remontent le ballon proprement. Tony déborde côté gauche et centre pour Julien G., qui s’élève plus haut que le gardien et propulse le ballon au fond des filets ! Goal goal goal goal goal ! Non, attendez ! L’arbitre de touche lève son drapeau ! Comment Julien G. peut-il être hors-jeu alors que Tony a centré depuis la ligne de sortie de but ?!? Quoiqu’il en soit, le but est refusé…</p>
+                    <p><b>17’ : </b>  Julien G. n’est pas content. Sur un six mètres du gardien adverse, il contrôle le ballon, résiste à au latéral gauche, passe le défenseur central en force et frappe : c’est le but !!! But de Julien G. ! 1-0 pour les Taoupats ! <i> « Et là, y a hors-jeu ? », Julien G. </i></p>
+                    <p><b>35’ : </b> Le numéro 12 récupère un ballon à 30m du but des Taoupats et frappe : but. 1-1.  </p>
+                    <p><b>37’ : </b> Le numéro 12 récupère un ballon à 30m du but des Taoupats et frappe : but. 1-2. </p>
 
-                    <div class="span3">
-                        <div class="box">
-                            <i class="icon-calendar"> </i>
-                            <h4 class="title">Calendrier</h4>
-                            <hr/>
-                            <p>
-                                Consultez le calendrier de la saison des Taoupats de Daux.
-                                <a href="calendrier.html">ICI</a>
-                            </p>
-                        </div>
-                    </div>
 
-                    <div class="span3">
-                        <div class="box">
-                            <i class="icon-camera"></i>
-                            <h4 class="title">Photos</h4>
-                            <hr/>
-                            <p>
-                                Des photos des taupes d'hier à aujourd'hui en passant par les 40 ans des Taoupats.
-                                <a href="photos.html">ICI</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="span3">
-                        <div class="box">
-                            <i class="icon-signal"></i>
-                            <h4 class="title">Sondages</h4>
-                            <hr/>
-                            <p>
-                                Répondez aux sondages toutes les semaines après les matchs des Taoupats.
-                                <a class="visible-desktop" href="sondages.php">ICI</a>
-                                <a class="hidden-desktop" href="sondages-mobile.php">ICI</a>
-                            </p>
-                        </div>
-                    </div>
+                    <p><b>44’ : </b> Une/deux entre Jo et Julien G., mais un défenseur intervient. Corner pour les Taoupats. <i> « -Je peux monter ? </i> demandent les deux Maxime à Dédé. <i> –Ouais. Edouard, Pierre, redescendez ! </i> Le corner arrive sur la tête de Maxime S. Le ballon est contré par les deux défenseurs face à lui mais il lui revient dans les pieds. Il frappe et c’est le buuut ! Les Taoupats recollent au score, 2-2 ! </p>
+                    <p>Première mi-temps très serrée entre les deux équipes. Il y a du beau jeu, de belles actions, et des buts. Tout ce qu’on aime. Espérons que ça continue en deuxième mi-temps. </p>
+                    <p><b>47’ : </b>  Percée d’Edouard, qui à 20m, tire à côté.</p>
+                    <p><b>61’ : </b>  Coup franc à l’entrée de la surface pour Fontenilles. Le n°12 frappe côté ouvert. Le ballon est en plus dévié par le mur, mais notre gardien, petit par la taille, grand par le talent, stop net le ballon. Dédé lui caresse la tête.</p>
+                    <p><b>65’ : </b>  Paul récupère le ballon à l’entrée de la surface et d’un plat du pied, enrhume le poteau gauche.</p>
+                    <p><b>72’ : </b>  Tir d’Enzo à 30m. Bien tenté, mais ça passe juste au-dessus du but.</p>
+                    <p><b>75’ : </b> Pierre C. lance Rémy côté droit, qui centre pour Paul. Celui-ci, idéalement placé, amortit le ballon de la poitrine et reprend de volée le ballon : buuut ! 3-2 pour les Taoupats !!! C’est fantastique ! </p>
+                    <p><b>78’ : </b>  La défense des Fontenilles n’y est plus. Edouard en profite pour déborder côté gauche et centre pour Rémy au second poteau. <s>But de Rémy !</s> Renvoi aux cinq mètres cinquante.</p>
+                    <p><b>82’ : </b>  Les Fontenilles profitent d’un ballon mal dégagé côté gauche. Le n°11, passe au n°12, qui, vec le n°8 se retrouvent à 2 contre 1 face à Pierre. Le n°12 tire et marque : 3-3 ! Les Fontenilles imiteront le caquètement de la poule pour contrer les cris de mouettes.</p>
+                    <p><b>90’+1 : </b>  Centre côté gauche pour Rémy au second poteau. <s>But de Rémy !</s> Renvoi aux cinq mètres cinquante. Non, c’est même la fin du match !</p>
+                    <p>Un match riche et intense en émotion, à tel point que coach Guillaume a oublié de noter les buts. Les Taoupats ont su répondre présent malgré une infirmerie quasi pleine. La victoire aurait été belle, mais Fontenilles est très loin d’avoir démérité, notamment avec un effectif amoindri de leur côté également. </p>
+                    <p>Mondonville ayant perdu contre Plaisance, les Taoupats passent donc premiers ex-aequo ! Et ils sont toujours invaincus depuis 7 matches ! </p>
+                    <p>Merci de nous avoir suivis. Rendez-vous le 22 Novembre à Villeneuve pour la 9ème journée de championnat ! </p>
                 </div>
-
             </div>
-            <!--End Main Content-->
         </div>
 
         <div id="footerInnerSeparator"></div>
@@ -270,7 +193,7 @@
 
                 <p>
                     <a href="classement.html" title="Classement">Le classement</a><br/>
-                    <a href="calendrier.html" title="Calendrier">Le calendrier</a><br/>
+                    <a href="#" title="Calendrier">Le calendrier</a><br/>
                     <a href="stats.php" title="Statistiques">Les statistiques</a><br/>
                     <a href="interviews.php" title="Interviews">Les interviews</a><br/>
                     <a class="visible-desktop" href="sondages.php" title="Sondages">Les sondages</a>
@@ -374,7 +297,7 @@
 <script src="scripts/camera/scripts/camera.min.js" type="text/javascript"></script>
 <script src="scripts/easing/jquery.easing.1.3.js" type="text/javascript"></script>
 <script type="text/javascript">function startCamera() {
-    $('#camera_wrap').camera({ fx: 'scrollLeft', time: 4000, loader: 'none', playPause: false, navigation: true, height: '20%', pagination: true });
+    $('#camera_wrap').camera({ fx: 'scrollLeft', time: 4000, loader: 'none', playPause: false, navigation: true, height: '40%', pagination: true });
 }
 $(function () {
     startCamera()

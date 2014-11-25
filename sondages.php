@@ -134,7 +134,7 @@
             <div class="row-fluid">
                 <!--Edit Main Content Area here-->
                 <div class="span12" id="divMain">
-                    <h3>Sondage de la semaine : Fontenilles</h3>
+                    <h3>Sondage de la semaine : Villeneuve</h3>
 
                     <?php include 'contenu/homme_match.php'; ?>
 
