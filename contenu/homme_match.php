@@ -47,7 +47,6 @@ for ($i = 0; $i < $nbJoueurs; $i++) {
 // ***************************************************************************************************************************
 if ($sondage == 'O') {
     if ($isVoted == 1) {
-        echo "<h4>Villeneuve</h4>";
         if ($login_user == '') {
             echo "<p>Vous avez déjà répondu au sondage</p>";
         } else {
@@ -134,7 +133,7 @@ if ($sondage == 'O') {
                                 <?php } ?>
                             </div>
                         </td>
-                        <td><?php  echo $arrayResult[$i]; ?></td>
+                        <td><?php echo $arrayResult[$i]; ?></td>
                     </tr>
                 <?php } ?>
                 </tbody>
@@ -306,6 +305,7 @@ if ($sondage == 'O') {
             </div>
         </div>
         <br><br>
+
         <div class="row-fluid">
             <div class="span2">
                 <div class="visible-desktop">
@@ -335,20 +335,20 @@ if ($sondage == 'O') {
                     </label>
                 </div>
             </div>
-            <div class="span2">
+            <!--<div class="span2">
                 <div class="visible-desktop">
                     <img alt="90x150" data-src="bootstrap/js/bootstrap.js/90x150"
                          style="width: 90px; height: 150px;"
-                         src="images/team/<?php echo $joueur14; ?>.jpg">
+                         src="images/team/<?php /*echo $joueur14; */ ?>.jpg">
 
                 </div>
                 <div class="" id="name_sondage">
                     <label class="radio">
                         <input type="radio" name="optionsRadios" id="optionsRadios1"
-                               value="<?php echo $joueur14; ?>" checked> <?php echo $joueur14; ?>
+                               value="<?php /*echo $joueur14; */ ?>" checked> <?php /*echo $joueur14; */ ?>
                     </label>
                 </div>
-            </div>
+            </div>-->
         </div>
         <br>
         <center>

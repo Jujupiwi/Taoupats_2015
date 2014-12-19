@@ -137,6 +137,8 @@
             <div class="span12 visible-desktop" id="divMain">
                 <h3>Statistiques saison 2014-2015</h3>
 
+                <!-- Reste buteur/passeur FA Toulousain,
+                Match complet Lespinasse-->
                 <table
                         class="table table-bordered table-striped table-condensed table-hover">
                     <thead>
@@ -168,7 +170,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Alexy</td>
-                        <td style="text-align: center"><?php $nb=7; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=9; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -192,7 +194,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Clement</td>
-                        <td style="text-align: center"><?php $nb=1; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=2; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -204,7 +206,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Dédé</td>
-                        <td style="text-align: center"><?php $nb=8; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=9; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">2</td>
                         <td style="text-align: center">0</td>
@@ -216,7 +218,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Edouard</td>
-                        <td style="text-align: center"><?php $nb=9; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=13; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -228,12 +230,12 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Enzo</td>
-                        <td style="text-align: center"><?php $nb=7; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=11; echo $nb;?></td>
                         <td style="text-align: center">1</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">1</td>
-                        <td style="text-align: center"><?php $but=1; echo $but;?></td>
+                        <td style="text-align: center"><?php $but=2; echo $but;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
                         <td style="text-align: center"><?php $passe=6; echo $passe;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
@@ -264,30 +266,6 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Gaetan</td>
-                        <td style="text-align: center"><?php $nb=5; echo $nb;?></td>
-                        <td style="text-align: center">0</td>
-                        <td style="text-align: center">1</td>
-                        <td style="text-align: center">0</td>
-                        <td style="text-align: center">0</td>
-                        <td style="text-align: center"><?php $but=0; echo $but;?></td>
-                        <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
-                        <td style="text-align: center"><?php $passe=0; echo $passe;?></td>
-                        <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: center">Igor</td>
-                        <td style="text-align: center"><?php $nb=2; echo $nb;?></td>
-                        <td style="text-align: center">0</td>
-                        <td style="text-align: center">0</td>
-                        <td style="text-align: center">0</td>
-                        <td style="text-align: center">0</td>
-                        <td style="text-align: center"><?php $but=0; echo $but;?></td>
-                        <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
-                        <td style="text-align: center"><?php $passe=0; echo $passe;?></td>
-                        <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: center">Joffrey</td>
                         <td style="text-align: center"><?php $nb=6; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">1</td>
@@ -299,8 +277,32 @@
                         <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
                     </tr>
                     <tr>
-                        <td style="text-align: center">Jordan</td>
+                        <td style="text-align: center">Igor</td>
+                        <td style="text-align: center"><?php $nb=4; echo $nb;?></td>
+                        <td style="text-align: center">0</td>
+                        <td style="text-align: center">0</td>
+                        <td style="text-align: center">0</td>
+                        <td style="text-align: center">0</td>
+                        <td style="text-align: center"><?php $but=0; echo $but;?></td>
+                        <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
+                        <td style="text-align: center"><?php $passe=0; echo $passe;?></td>
+                        <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">Joffrey</td>
                         <td style="text-align: center"><?php $nb=9; echo $nb;?></td>
+                        <td style="text-align: center">0</td>
+                        <td style="text-align: center">1</td>
+                        <td style="text-align: center">0</td>
+                        <td style="text-align: center">0</td>
+                        <td style="text-align: center"><?php $but=0; echo $but;?></td>
+                        <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
+                        <td style="text-align: center"><?php $passe=0; echo $passe;?></td>
+                        <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">Jordan</td>
+                        <td style="text-align: center"><?php $nb=12; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -312,7 +314,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">JulienB</td>
-                        <td style="text-align: center"><?php $nb=7; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=8; echo $nb;?></td>
                         <td style="text-align: center">1</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -336,7 +338,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">MaximeD</td>
-                        <td style="text-align: center"><?php $nb=10; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=13; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -360,7 +362,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">MaximeS</td>
-                        <td style="text-align: center"><?php $nb=9; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=11; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">1</td>
                         <td style="text-align: center">0</td>
@@ -372,19 +374,19 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Micka</td>
-                        <td style="text-align: center"><?php $nb=8; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=11; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">1</td>
                         <td style="text-align: center"><?php $but=8; echo $but;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
-                        <td style="text-align: center"><?php $passe=1; echo $passe;?></td>
+                        <td style="text-align: center"><?php $passe=3; echo $passe;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
                     </tr>
                     <tr>
                         <td style="text-align: center">Olivier</td>
-                        <td style="text-align: center"><?php $nb=8; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=11; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -396,7 +398,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Paul</td>
-                        <td style="text-align: center"><?php $nb=8; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=9; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -408,7 +410,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Pierre</td>
-                        <td style="text-align: center"><?php $nb=6; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=8; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -420,31 +422,31 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Remy</td>
-                        <td style="text-align: center"><?php $nb=8; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=10; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">1</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">1</td>
-                        <td style="text-align: center"><?php $but=2; echo $but;?></td>
+                        <td style="text-align: center"><?php $but=5; echo $but;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
                         <td style="text-align: center"><?php $passe=1; echo $passe;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
                     </tr>
                     <tr>
                         <td style="text-align: center">Tony</td>
-                        <td style="text-align: center"><?php $nb=6; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=9; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
-                        <td style="text-align: center"><?php $but=1; echo $but;?></td>
+                        <td style="text-align: center"><?php $but=3; echo $but;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($but/$nb, 0, 3);} else {echo 0;}?></td>
-                        <td style="text-align: center"><?php $passe=1; echo $passe;?></td>
+                        <td style="text-align: center"><?php $passe=2; echo $passe;?></td>
                         <td style="text-align: center"><?php if($nb!=0){echo substr($passe/$nb, 0, 3);} else {echo 0;}?></td>
                     </tr>
                     <tr>
                         <td style="text-align: center">Zizou</td>
-                        <td style="text-align: center"><?php $nb=3; echo $nb;?></td>
+                        <td style="text-align: center"><?php $nb=6; echo $nb;?></td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
                         <td style="text-align: center">0</td>
@@ -503,7 +505,7 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Enzo</td>
-                        <td style="text-align: center">1</td>
+                        <td style="text-align: center">2</td>
                         <td style="text-align: center">6</td>
                     </tr>
                     <tr>
@@ -564,7 +566,7 @@
                     <tr>
                         <td style="text-align: center">Micka</td>
                         <td style="text-align: center">8</td>
-                        <td style="text-align: center">1</td>
+                        <td style="text-align: center">3</td>
                     </tr>
                     <tr>
                         <td style="text-align: center">Olivier</td>
@@ -583,13 +585,13 @@
                     </tr>
                     <tr>
                         <td style="text-align: center">Remy</td>
-                        <td style="text-align: center">2</td>
+                        <td style="text-align: center">5</td>
                         <td style="text-align: center">1</td>
                     </tr>
                     <tr>
                         <td style="text-align: center">Tony</td>
-                        <td style="text-align: center">1</td>
-                        <td style="text-align: center">1</td>
+                        <td style="text-align: center">3</td>
+                        <td style="text-align: center">2</td>
                     </tr>
                     <tr>
                         <td style="text-align: center">Zizou</td>

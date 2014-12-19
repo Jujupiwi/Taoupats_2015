@@ -5,7 +5,7 @@ Connexion à la base
  ********************************************************
 $serv = 'localhost';
 $login = 'root';
-$pwd = 'audrey';
+$pwd = '';
 $data = 'taoupats';*/
 
 $serv = 'mysql51-74.perso';
@@ -16,18 +16,19 @@ $data = 'taoupats';
 /*********************************************************
 Liste des joueurs pour le match
  *********************************************************/
+$opposition = 'Juventus Papus 2';
 $joueur1 = 'Alexy';
 $joueur2 = 'Joffrey';
-$joueur3 = 'MaximeS';
-$joueur4 = 'MaximeD';
-$joueur5 = 'André Filipe';
+$joueur3 = 'MaximeD';
+$joueur4 = 'Olivier';
+$joueur5 = 'Jordan';
 $joueur6 = 'Edouard';
-$joueur7 = 'Pierre';
-$joueur8 = 'Jordan';
-$joueur9 = 'Paul';
-$joueur10 = 'Tony';
-$joueur11 = 'Micka';
-$joueur12 = 'Enzo';
+$joueur7 = 'Enzo';
+$joueur8 = 'Fabrice';
+$joueur9 = 'Micka';
+$joueur10 = 'JulienB';
+$joueur11 = 'Tony';
+$joueur12 = 'Igor';
 $joueur13 = 'Remy';
 $joueur14 = 'Olivier';
 
@@ -52,8 +53,8 @@ $joueur29 = 'Tito';
 
 $sondage = 'O';
 
-$nbJoueurs = 14;
-$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13, $joueur14);
+$nbJoueurs = 13;
+$array = array($joueur1, $joueur2, $joueur3, $joueur4, $joueur5, $joueur6, $joueur7, $joueur8, $joueur9, $joueur10, $joueur11, $joueur12, $joueur13);
 /*********************************************************
 Liste des équipes
  *********************************************************/
@@ -73,9 +74,9 @@ $leguevin = 'Leguevin US 2';
 /*********************************************************
 Nom des sondages
  *********************************************************/
-$match = 'extvilleneuve';
-$noteMatch = 'note-extvilleneuve';
-$commentMatch = 'comment-extvilleneuve';
+$match = 'dompapus';
+$noteMatch = 'note-dompapus';
+$commentMatch = 'comment-dompapus';
 
 /*********************************************************
 Interview de la personne de la semaine

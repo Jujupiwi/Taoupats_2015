@@ -1,4 +1,7 @@
-﻿<!DOCTYPE HTML>
+﻿<?php
+include 'contenu/param.php';
+?>
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
@@ -134,7 +137,7 @@
             <div class="row-fluid">
                 <!--Edit Main Content Area here-->
                 <div class="span12" id="divMain">
-                    <h3>Sondage de la semaine : Villeneuve</h3>
+                    <h3>Sondage de la semaine : <?php echo $opposition;?></h3>
 
                     <?php include 'contenu/homme_match.php'; ?>
 
